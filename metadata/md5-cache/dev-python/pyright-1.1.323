@@ -1,4 +1,4 @@
-BDEPEND=net-libs/nodejs[npm]
+BDEPEND=net-libs/nodejs[npm] net-libs/nodejs[npm]
 DEFINED_PHASES=install unpack
 DESCRIPTION=Static type checker for Python
 EAPI=8
@@ -6,8 +6,8 @@ HOMEPAGE=https://github.com/microsoft/pyright
 INHERIT=nodejs-r1
 KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=MIT
-RDEPEND=net-libs/nodejs
+RDEPEND=net-libs/nodejs net-libs/nodejs
 SLOT=0
 SRC_URI=http://registry.npmjs.org/pyright/-/pyright-1.1.323.tgz
 _eclasses_=nodejs-r1	156ba9f77a04801f479463487b85e969
-_md5_=16c10e997d43c9cb03b0b8d0d14ec56a
+_md5_=3e8535800edd87c4a98ba10a1db0ed24
