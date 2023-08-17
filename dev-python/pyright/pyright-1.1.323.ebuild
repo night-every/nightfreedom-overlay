@@ -12,6 +12,10 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 
+DEPEND=""
+RDEPEND="net-libs/nodejs"
+BDEPEND="net-libs/nodejs[npm]"
+
 # Note that this metadata derives from the "packages/pyright/package.json" file.
 NODEJS_BINSCRIPTS='
 	index.js:pyright
