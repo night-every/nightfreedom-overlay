@@ -8,7 +8,7 @@ EAPI=8
 inherit unpacker xdg
 
 DESCRIPTION="Unofficial desktop application for linux"
-HOMEPAGE="https://github.com/ChugunovRoman/figma-linux"
+HOMEPAGE="https://github.com/Figma-Linux/figma-linux"
 SRC_URI="amd64? ( https://github.com/Figma-Linux/figma-linux/releases/download/v${PV}/figma-linux_${PV}_linux_amd64.deb -> ${P}-amd64.deb )"
 
 LICENSE="MIT"
